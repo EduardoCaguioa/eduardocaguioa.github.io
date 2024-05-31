@@ -9,7 +9,7 @@ function countLike1() {
   let likeCounts = parseInt(count1.value) + 1
   count1.textContent = likeCounts.toString()
 }
-btnDislike1.addEventListener("click",countLike1)
+btnLike1.addEventListener("click",countLike1)
 
 function countDislike1() {
   let dislikeCounts = parseInt(count1.value) + 1
