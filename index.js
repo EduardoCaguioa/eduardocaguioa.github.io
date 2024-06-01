@@ -33,3 +33,22 @@ function countDislike2() {
   dcount2.innerText = dislikeCounts.toString()
 }
 btnDislike2.addEventListener("click", countDislike2)
+
+const btnLike3 = document.getElementById("btnlike3")
+const count3 = document.getElementById("count3")
+
+function countLike3() {
+  let likeCounts = parseInt(count3.innerText) + 1
+  count3.innerText = likeCounts.toString()
+}
+btnLike3.addEventListener("click", countLike3)
+
+const btnDislike3 = document.getElementById("btndislike3")
+const dcount3 = document.getElementById("dcount3")
+
+function countDislike3() {
+  let dislikeCounts = parseInt(dcount3.innerText) + 1
+  dcount3.innerText = dislikeCounts.toString()
+}
+btnDislike3.addEventListener("click", countDislike3)
+
