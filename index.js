@@ -33,3 +33,14 @@ function countDislike2() {
   dcount2.innerText = dislikeCounts.toString()
 }
 btnDislike2.addEventListener("click", countDislike2)
+
+
+const submit = document.getElementById("submit")
+const comment = document.getElementById("comment")
+const commentbox = document.getElementById("commentbox")
+
+function submitComment(){
+  commentbox.textContent += comment.value.toString() + "\n"
+}
+
+submit.addEventListener("click", submitComment)
